@@ -2,7 +2,7 @@ provider "aws" {
    region     = "us-east-1"
 }
 locals {
-  staging_env = "staging"
+  staging_env = "staging1"
 }
 
 resource "aws_instance" "ec2_example" {
